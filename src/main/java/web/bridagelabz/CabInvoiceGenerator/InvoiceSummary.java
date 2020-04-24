@@ -10,8 +10,6 @@ public class InvoiceSummary {
         this.totalFare=totalFare;
         this.averageFare=this.totalFare/this.numOfRides;
     }
-
-
     @Override
     public boolean equals(Object obj) {
        if(this==obj) return true;
