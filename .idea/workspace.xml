@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae85d7e-f2a4-4f20-896c-430ef2af387b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/bridagelabz/CabInvoiceGenerator/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/bridagelabz/CabInvoiceGenerator/InvoiceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/bridagelabz/CabInvoiceGenerator/InvoiceSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/bridagelabz/CabInvoiceGenerator/InvoiceSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/bridagelabz/CabInvoiceGenerator/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/bridagelabz/CabInvoiceGenerator/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/bridagelabz/CabInvoiceGenerator/InvoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/bridagelabz/CabInvoiceGenerator/InvoiceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +64,13 @@
       <recent name="web.bridagelabz.CabInvoiceGenerator" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InvoiceServiceTest.givenUserIdAndridesShuoldReturnInvoiceSummary_WhenRideIs_Prime">
-    <configuration name="InvoiceServiceTest.genrateBillWhenRideIspremimum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.InvoiceServiceTest">
+    <configuration name="InvoiceServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.bridagelabz.CabInvoiceGenerator.InvoiceServiceTest.genrateBillWhenRideIspremimum&quot;" />
+        <option name="scriptParameters" value="--tests &quot;web.bridagelabz.CabInvoiceGenerator.InvoiceServiceTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -87,6 +91,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;web.bridagelabz.CabInvoiceGenerator.InvoiceServiceTest.givenDistanceAndTimeReturn_TotalFare&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceServiceTest.givenDistance_Time_lessAndReturn_MinFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;web.bridagelabz.CabInvoiceGenerator.InvoiceServiceTest.givenDistance_Time_lessAndReturn_MinFare&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -141,33 +165,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InvoiceServiceTest.givenUserIdAndridesShuoldReturnInvoiceSummary_WhenRideIs_Prime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.bridagelabz.CabInvoiceGenerator.InvoiceServiceTest.givenUserIdAndridesShuoldReturnInvoiceSummary_WhenRideIs_Prime&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InvoiceServiceTest.givenUserIdAndridesShuoldReturnInvoiceSummary_WhenRideIs_Prime" />
+        <item itemvalue="Gradle.InvoiceServiceTest" />
         <item itemvalue="Gradle.InvoiceServiceTest.givenMultipleRides_SholdReturnInvoiceSummary" />
+        <item itemvalue="Gradle.InvoiceServiceTest.givenDistance_Time_lessAndReturn_MinFare" />
         <item itemvalue="Gradle.InvoiceServiceTest.givenDistanceAndTimeReturn_TotalFare" />
         <item itemvalue="Gradle.InvoiceServiceTest.givenUserIdAndridesShuoldReturnInvoiceSummary" />
-        <item itemvalue="Gradle.InvoiceServiceTest.genrateBillWhenRideIspremimum" />
       </list>
     </recent_temporary>
   </component>
@@ -185,30 +189,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587639875163">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587712839557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587639875163" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1587712839557" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587712006750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587712006750" />
     <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587639345758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1587639345758" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1587707727974">
+    <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1587724286049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587707727974" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1587707727974">
+    <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587724286049" />
+    <state width="1493" height="177" key="GridCell.Tab.0.center" timestamp="1587724286049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587707727974" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1587707727974">
+    <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587724286049" />
+    <state width="1493" height="177" key="GridCell.Tab.0.left" timestamp="1587724286049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587707727974" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1587707727974">
+    <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587724286049" />
+    <state width="1493" height="177" key="GridCell.Tab.0.right" timestamp="1587724286049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587707727974" />
+    <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587724286049" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587695582928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,10 +237,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="583" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1587634100109" />
-    <state x="511" y="47" key="refactoring.ChangeSignatureDialog" timestamp="1587707020338">
+    <state x="209" y="30" key="new project wizard" timestamp="1587724283228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="511" y="47" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587707020338" />
+    <state x="209" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587724283228" />
+    <state x="511" y="47" key="refactoring.ChangeSignatureDialog" timestamp="1587711896043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="47" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587711896043" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587705897000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -249,6 +261,14 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/web/bridagelabz/CabInvoiceGenerator/InvoiceServiceTest.java</url>
+          <line>63</line>
+          <properties class="web.bridagelabz.CabInvoiceGenerator.InvoiceServiceTest" method="givenUserIdAndridesShuoldReturnInvoiceSummary_WhenRideIs_Prime">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/web/bridagelabz/CabInvoiceGenerator/InvoiceServiceTest.java</url>
           <line>20</line>
@@ -264,7 +284,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CabInvoiceGenerator$InvoiceServiceTest_givenUserIdAndridesShuoldReturnInvoiceSummary.ic" NAME="InvoiceServiceTest.givenUserIdAndridesShuoldReturnInvoiceSummary Coverage Results" MODIFIED="1587641409895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/CabInvoiceGenerator$InvoiceServiceTest.ic" NAME="InvoiceServiceTest Coverage Results" MODIFIED="1587636049806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CabInvoiceGenerator$InvoiceServiceTest.ic" NAME="InvoiceServiceTest Coverage Results" MODIFIED="1587718189217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CabInvoiceGenerator$InvoiceServiceTest_givenDistanceAndTimeReturn_TotalFare.ic" NAME="InvoiceServiceTest.givenDistanceAndTimeReturn_TotalFare Coverage Results" MODIFIED="1587639579529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

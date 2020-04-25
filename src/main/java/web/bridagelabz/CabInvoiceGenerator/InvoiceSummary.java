@@ -9,6 +9,7 @@ public class InvoiceSummary {
         this.numOfRides=numOfRides;
         this.totalFare=totalFare;
         this.averageFare=this.totalFare/this.numOfRides;
+
     }
     @Override
     public boolean equals(Object obj) {
@@ -24,5 +25,4 @@ public class InvoiceSummary {
     public int hashCode() {
         return super.hashCode();
     }
-
 }
